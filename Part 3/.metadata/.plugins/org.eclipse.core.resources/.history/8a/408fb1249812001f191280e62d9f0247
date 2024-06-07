@@ -1,0 +1,23 @@
+package excepion;
+
+public class ClassCastExcep extends Parent {
+	public static void main(String [] args)
+	{	
+		try {
+		m1();
+		}
+		catch(ClassCastException c){
+			System.out.println("Exception Handled");
+		}
+	}
+	public static void m1() throws ClassCastException
+	{
+		Parent p = new Parent();
+		ClassCastExcep c = (ClassCastExcep)p ;
+	}
+	public static void m2() throws ClassCastException
+	{
+		m1();
+		System.out.println("Hyy");
+	}
+}

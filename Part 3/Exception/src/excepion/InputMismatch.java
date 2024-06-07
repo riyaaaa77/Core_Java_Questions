@@ -1,0 +1,22 @@
+package excepion;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+public class InputMismatch {
+	static Scanner sc = new Scanner(System.in);
+	public static void main(String [] args)
+	{
+		System.out.println("Hello");
+		try {
+			m1();
+		}
+		catch(InputMismatchException m)
+		{
+			System.out.println("Exception handled");
+		}
+	}
+	public static void m1() throws InputMismatchException
+	{
+		System.out.println("Enter the value : ");
+		int i = sc.nextInt();
+	}
+}

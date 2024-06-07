@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\E3\Riya\Part 3\.metadata\.plugins\org.eclipse.jdt.core
+3883736308.index
+1372146305.index
+1536366288.index
+1865797976.index
+1516645925.index
+3413725848.index
